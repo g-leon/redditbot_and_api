@@ -1,2 +1,2 @@
 # redditbot
-A reddit bot that scrappes subreddits and exposes an api for queries
+A reddit bot that fetches posts and comments and an api that serves them
