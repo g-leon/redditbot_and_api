@@ -1,0 +1,18 @@
+api:
+  build: redditapi
+  ports:
+    - "5000:5000"
+  links:
+    - mongodb
+
+bot:
+  build: redditbot
+  links:
+   - mongodb
+
+mongodb:
+  image: mongo:latest
+
+
+
+

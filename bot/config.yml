@@ -1,0 +1,11 @@
+subreddits:
+  - java
+  - python
+  - golang
+  - rust
+
+rate-limit: 2 # Rate in seconds at which the bot queries Reddit
+
+posts-limit: 25 # Number of posts to retrieve at each reddit api request
+
+log-requests: False # Log Reddit api requests

@@ -1,0 +1,4 @@
+pymongo
+mock
+praw
+flask
