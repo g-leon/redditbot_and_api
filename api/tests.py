@@ -47,8 +47,8 @@ class TestApi(unittest.TestCase):
             self.subreddit.upper(), self.start, self.end
         )
         self.assertEqual(subreddit, 'python')
-        self.assertEqual(type(start), int)
-        self.assertEqual(type(end), int)
+        self.assertEqual(type(start), float)
+        self.assertEqual(type(end), float)
 
         # Invalid integer values for time interval
         self.assertRaises(
