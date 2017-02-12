@@ -13,6 +13,6 @@ The system can be run as a whole through docker-compose or by starting each indi
     
 ### Query system
 
-    - http://localhost:5000/items?subreddit=python&from=1386915880&to=1486915880
+    - http://localhost:5000/items?subreddit=python&from=0&to=<current unix time>
  
 
